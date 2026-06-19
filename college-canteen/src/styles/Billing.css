@@ -1,0 +1,121 @@
+.billing-page{
+min-height:100vh;
+padding:40px;
+background:#f8fbff;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.back-btn{
+align-self:flex-start;
+
+background:white;
+color:#4f6ee8;
+
+border:1px solid #e4ebff;
+
+padding:12px 25px;
+
+border-radius:14px;
+
+font-size:16px;
+font-weight:bold;
+
+cursor:pointer;
+
+box-shadow:
+0 4px 12px rgba(0,0,0,0.05);
+}
+
+.billing-card{
+width:90%;
+max-width:850px;
+
+background:white;
+
+margin-top:25px;
+
+padding:35px;
+
+border-radius:25px;
+
+border:1px solid #edf2ff;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,0.05);
+}
+
+.billing-title{
+text-align:center;
+color:#4f6ee8;
+font-size:3rem;
+margin-bottom:30px;
+}
+
+.bill-item{
+display:flex;
+justify-content:space-between;
+
+background:#f9fbff;
+
+padding:18px;
+
+border-radius:15px;
+
+margin-bottom:15px;
+
+border:1px solid #edf2ff;
+
+font-size:22px;
+}
+
+.total-box{
+margin-top:25px;
+
+text-align:center;
+
+background:#f9fbff;
+
+padding:20px;
+
+border-radius:20px;
+
+border:1px solid #edf2ff;
+}
+
+.total-box h3{
+color:#718096;
+}
+
+.total-box h1{
+font-size:3rem;
+color:#4f6ee8;
+}
+
+.token-btn{
+display:block;
+
+margin:30px auto 0;
+
+background:linear-gradient(
+135deg,
+#8bb4ff,
+#a88bff
+);
+
+color:white;
+
+border:none;
+
+padding:15px 40px;
+
+border-radius:15px;
+
+font-size:22px;
+
+font-weight:bold;
+
+cursor:pointer;
+}

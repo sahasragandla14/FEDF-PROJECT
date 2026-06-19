@@ -1,0 +1,73 @@
+.feedback-page{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:#f8fbff;
+}
+
+.feedback-card{
+width:650px;
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+text-align:center;
+
+border:1px solid #edf2ff;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,0.05);
+}
+
+.feedback-card h1{
+color:#4f6ee8;
+margin-bottom:20px;
+}
+
+.feedback-card textarea{
+width:100%;
+
+padding:18px;
+
+margin:20px 0;
+
+border:1px solid #dfe7ff;
+
+border-radius:15px;
+
+resize:none;
+
+font-size:16px;
+}
+
+.feedback-card textarea:focus
+
+.feedback-card button{
+width:100%;
+
+padding:15px;
+
+margin-top:12px;
+
+border:none;
+
+border-radius:14px;
+
+background:linear-gradient(
+135deg,
+#8bb4ff,
+#a88bff
+);
+
+color:white;
+
+font-size:17px;
+font-weight:600;
+
+cursor:pointer;
+}
